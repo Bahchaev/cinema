@@ -2,32 +2,32 @@
     font-family: DroidSerif;
     font-style: normal;
     font-weight: normal;
-    src: url("../src/fonts/DroidSerif/DroidSerif.woff2") format("woff2"),
-    url("../src/fonts/DroidSerif/DroidSerif.woff") format("woff");
+    src: url("src/fonts/DroidSerif/DroidSerif.woff2") format("woff2"),
+    url("src/fonts/DroidSerif/DroidSerif.woff") format("woff");
 }
 
 @font-face {
     font-family: DroidSerif;
     font-style: normal;
     font-weight: bold;
-    src: url("../src/fonts/DroidSerif/DroidSerif-Bold.woff2") format("woff2"),
-    url("../src/fonts/DroidSerif/DroidSerif-Bold.woff") format("woff");
+    src: url("src/fonts/DroidSerif/DroidSerif-Bold.woff2") format("woff2"),
+    url("src/fonts/DroidSerif/DroidSerif-Bold.woff") format("woff");
 }
 
 @font-face {
     font-family: DroidSerif;
     font-style: italic;
     font-weight: bold;
-    src: url("../src/fonts/DroidSerif/DroidSerif-BoldItalic.woff2") format("woff2"),
-    url("../src/fonts/DroidSerif/DroidSerif-BoldItalic.woff") format("woff");
+    src: url("src/fonts/DroidSerif/DroidSerif-BoldItalic.woff2") format("woff2"),
+    url("src/fonts/DroidSerif/DroidSerif-BoldItalic.woff") format("woff");
 }
 
 @font-face {
     font-family: DroidSerif;
     font-style: italic;
     font-weight: normal;
-    src: url("../src/fonts/DroidSerif/DroidSerif-Italic.woff2") format("woff2"),
-    url("../src/fonts/DroidSerif/DroidSerif-Italic.woff") format("woff");
+    src: url("src/fonts/DroidSerif/DroidSerif-Italic.woff2") format("woff2"),
+    url("src/fonts/DroidSerif/DroidSerif-Italic.woff") format("woff");
 }
 
 body {
@@ -126,7 +126,7 @@ body {
 }
 
 .slide-1 {
-    background-image: url("../src/img/header-slide-1.png");
+    background-image: url("src/img/header-slide-1.png");
     background-position: center;
 }
 
@@ -205,7 +205,7 @@ body {
 
 .header__swiper-button-next:after,
 .header__swiper-button-prev:after {
-    content: url("../src/img/slide-arrow.png");
+    content: url("src/img/slide-arrow.png");
     position: absolute;
     left: 18px;
 
@@ -236,7 +236,7 @@ body {
 footer {
     position: relative;
     min-height: 894px;
-    background-image: url("../src/img/footer-bg-shape-bottom.png"), url("../src/img/footer-bg-shape-top.png"), url("../src/img/footer-bg-layer-2.png"), url("../src/img/footer-bg-layer-1.png");
+    background-image: url("src/img/footer-bg-shape-bottom.png"), url("src/img/footer-bg-shape-top.png"), url("src/img/footer-bg-layer-2.png"), url("src/img/footer-bg-layer-1.png");
     background-repeat: no-repeat;
     background-position: top 235px center, top center, bottom left, bottom right;
     display: flex;
@@ -294,7 +294,7 @@ footer {
     border-radius: 48px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
-    background-image: url("../src/img/footer-swipper-arrow.png");
+    background-image: url("src/img/footer-swipper-arrow.png");
     background-repeat: no-repeat;
     background-position: center;
     left: -16px;
