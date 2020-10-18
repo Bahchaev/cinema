@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cinema</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <div class="nav__container">
+            <div class="nav__logo-container">
+                <img src="../src/img/logo.png" alt="logo" class="nav__logo">
+            </div>
+            <a href="" class="nav__item">
+                <img src="../src/img/home-link.png" alt="home">
+            </a>
+            <a href="" class="nav__item hover">Афиша</a>
+            <a href="" class="nav__item hover">Сеансы</a>
+            <a href="" class="nav__item hover">Акции</a>
+            <a href="" class="nav__item hover">Кинотеатр</a>
+            <a href="" class="nav__item hover">Снек-бар</a>
+            <a href="" class="nav__item hover">Справка</a>
+            <a href="" class="nav__item hover">Тех.поддержка</a>
+            <a href="" class="nav__item search">
+                <img src="../src/img/search-link.png" alt="search">
+            </a>
+            <a class="nav__item profile">
+                <img src="../src/img/profile-link.png" alt="profile">
+            </a>
+        </div>
+    </nav>
+
+    <div class="swiper">
+        <!-- Swiper -->
+        <div class="swiper-container header__swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-1">
+                    <div class="slide-content">
+                        <button class="watch-trailer-button">
+                            Cмотреть трейлер <img src="../src/img/play-trailer-icon.png" alt="">
+                        </button>
+                        <div class="film-name">Джокер (18+)</div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-1">
+                    <div class="slide-content">
+                        <button class="watch-trailer-button">
+                            Cмотреть трейлер <img src="../src/img/play-trailer-icon.png" alt="">
+                        </button>
+                        <div class="film-name">Джокер (18+)</div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-1">
+                    <div class="slide-content">
+                        <button class="watch-trailer-button">
+                            Cмотреть трейлер <img src="../src/img/play-trailer-icon.png" alt="">
+                        </button>
+                        <div class="film-name">Джокер (18+)</div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-1">
+                    <div class="slide-content">
+                        <button class="watch-trailer-button">
+                            Cмотреть трейлер <img src="../src/img/play-trailer-icon.png" alt="">
+                        </button>
+                        <div class="film-name">Джокер (18+)</div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-1">
+                    <div class="slide-content">
+                        <button class="watch-trailer-button">
+                            Cмотреть трейлер <img src="../src/img/play-trailer-icon.png" alt="">
+                        </button>
+                        <div class="film-name">Джокер (18+)</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next header__swiper-button-next"></div>
+            <div class="swiper-button-prev header__swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination header__swiper-pagination"></div>
+        </div>
+        <!-- Initialize Swiper -->
+        <script>
+            var headerSwiper = new Swiper('.header__swiper-container', {
+                navigation: {
+                    nextEl: '.header__swiper-button-next',
+                    prevEl: '.header__swiper-button-prev',
+                },
+                pagination: {
+                    el: '.header__swiper-pagination',
+                    renderBullet: function (index, className) {
+
+                        return '<span class="' + className + '"></span>';
+                    },
+                    bulletClass: "header__swiper-pagination-bullet",
+                    bulletActiveClass: "header__swiper-pagination-bullet-active"
+                }
+            });
+        </script>
+
+    </div>
+</header>
+
+<main>
+    <div style="width: 100%; height: 600px; background-color: white"></div>
+</main>
+
+<footer>
+    <div class="news">
+        <div class="news__container">
+            <div class="news__title">НОВОСТИ И АКЦИИ</div>
+            <div class="news__cards">
+                <!-- Swiper -->
+                <div class="news_swiper">
+                    <div class="swiper-container news__swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../src/img/card-1-img.png" alt="">
+                                    </div>
+                                    <div class="card-header">
+                                        16 ноября 2016
+                                    </div>
+                                    <div class="card-content">
+                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../src/img/card-2-img.png" alt="">
+                                    </div>
+                                    <div class="card-header">
+                                        16 ноября 2016
+                                    </div>
+                                    <div class="card-content">
+                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../src/img/card-3-img.png" alt="">
+                                    </div>
+                                    <div class="card-header">
+                                        16 ноября 2016
+                                    </div>
+                                    <div class="card-content">
+                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../src/img/card-4-img.png" alt="">
+                                    </div>
+                                    <div class="card-header">
+                                        16 ноября 2016
+                                    </div>
+                                    <div class="card-content">
+                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next news__swiper-button-next"></div>
+                    <div class="swiper-button-prev news__swiper-button-prev"></div>
+                </div>
+                <!-- Initialize Swiper -->
+                <script>
+                    var newsSwiper = new Swiper('.news__swiper-container', {
+                        spaceBetween: 20,
+                        slidesPerView: "auto",
+                        navigation: {
+                            nextEl: '.news__swiper-button-next',
+                            prevEl: '.news__swiper-button-prev',
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+
+        <div class="links__logo container">
+            <img src="../src/img/links-logo.png" alt="">
+        </div>
+
+        <div class="links__bank container">
+            <div class="mastercard">
+                <img src="../src/img/link-mastercard-logo-1.png" alt="">
+                <img src="../src/img/link-mastercard-logo-2.png" alt="">
+                <img src="../src/img/link-mastercard-logo-3.png" alt="">
+            </div>
+            <div class="visa">
+                <img src="../src/img/link-visa-logo-1.png" alt="">
+                <img src="../src/img/link-visa-logo-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="link__social container">
+            <div class="social-header">Мы в соц. сетях:</div>
+            <div class="social-icons">
+                <a href="https://vk.com">
+                    <img src="../src/img/social-vk-icon.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="../src/img/social-instagram-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="link__info container">
+            <div class="info-nav__container">
+                <div class="info-nav">
+                    <a href="">Карта сайта</a>
+                    <a href="">Обратная связь</a>
+                </div>
+                <div class="info-adress__container">
+                    <p class="tel">(1234) 12-34-56, box@mail.ru</p>
+                    <p class="adress">г.Город, ул.Улица, Дом №</p>
+                    <p>КЦ "Россия"</p>
+                </div>
+            </div>
+            <div class="mobile-link__container">
+                <div class="mobile-link"><a href="">Мобильная версия</a></div>
+                <div class="info-copyright">
+                    <a class="developer-link" href="">Разработка сайта</a>
+                    <p>"Nicolas group"</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+</body>
+</html>

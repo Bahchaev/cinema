@@ -1,0 +1,8 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "swiper": "latest"
+  }
+}
