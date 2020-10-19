@@ -126,7 +126,7 @@ body {
 }
 
 .slide-1 {
-    background-image: url("src/img/header-slide-1.png");
+    background-image: url("src/img/header-slide-1.svg");
     background-position: center;
 }
 
@@ -241,7 +241,7 @@ body {
 footer {
     position: relative;
     min-height: 894px;
-    background-image: url("src/img/footer-bg-shape-bottom.png"), url("src/img/footer-bg-shape-top.png"), url("src/img/footer-bg-layer-2.png"), url("src/img/footer-bg-layer-1.png");
+    background-image: url("src/img/footer-bg-shape-bottom.svg"), url("src/img/footer-bg-shape-top.svg"), url("src/img/footer-bg-layer-2.png"), url("src/img/footer-bg-layer-1.png");
     background-repeat: no-repeat;
     background-position: top 235px center, top center, bottom left, bottom right;
     display: flex;
