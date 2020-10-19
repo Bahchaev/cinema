@@ -89,24 +89,7 @@
             <!-- Add Pagination -->
             <div class="swiper-pagination header__swiper-pagination"></div>
         </div>
-        <!-- Initialize Swiper -->
-        <script>
-            var headerSwiper = new Swiper('.header__swiper-container', {
-                navigation: {
-                    nextEl: '.header__swiper-button-next',
-                    prevEl: '.header__swiper-button-prev',
-                },
-                pagination: {
-                    el: '.header__swiper-pagination',
-                    renderBullet: function (index, className) {
 
-                        return '<span class="' + className + '"></span>';
-                    },
-                    bulletClass: "header__swiper-pagination-bullet",
-                    bulletActiveClass: "header__swiper-pagination-bullet-active"
-                }
-            });
-        </script>
 
     </div>
 </header>
@@ -146,7 +129,7 @@
                                         16 ноября 2016
                                     </div>
                                     <div class="card-content">
-                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                        Ищем бармена-кассира
                                     </div>
                                 </div>
                             </div>
@@ -159,25 +142,35 @@
                                         16 ноября 2016
                                     </div>
                                     <div class="card-content">
-                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                        Дэвиду Линчу вручили почетный «Оскар» за вклад в кинематограф
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card">
                                     <div class="card-img">
-                                        <img src="src/img/card-4-img.png" alt="">
+                                        <img src="src/img/card-3-img.png" alt="">
                                     </div>
                                     <div class="card-header">
                                         16 ноября 2016
                                     </div>
                                     <div class="card-content">
-                                        Ночные сеансы - Фантастические твари и где они обитают (12+)
+                                        Дэвиду Линчу вручили почетный «Оскар» за вклад в кинематограф
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card"></div>
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="src/img/card-3-img.png" alt="">
+                                    </div>
+                                    <div class="card-header">
+                                        16 ноября 2016
+                                    </div>
+                                    <div class="card-content">
+                                        Дэвиду Линчу вручили почетный «Оскар» за вклад в кинематограф
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -185,17 +178,7 @@
                     <div class="swiper-button-next news__swiper-button-next"></div>
                     <div class="swiper-button-prev news__swiper-button-prev"></div>
                 </div>
-                <!-- Initialize Swiper -->
-                <script>
-                    var newsSwiper = new Swiper('.news__swiper-container', {
-                        spaceBetween: 20,
-                        slidesPerView: "auto",
-                        navigation: {
-                            nextEl: '.news__swiper-button-next',
-                            prevEl: '.news__swiper-button-prev',
-                        },
-                    });
-                </script>
+
             </div>
         </div>
     </div>
@@ -229,7 +212,6 @@
             </div>
         </div>
 
-
         <div class="link__info container">
             <div class="info-nav__container">
                 <div class="info-nav">
@@ -254,6 +236,9 @@
     </div>
 </footer>
 
-
+<!-- Initialize headerSwiper -->
+<script src="src/Scripts/headerSwiper.js"></script>
+<!-- Initialize newsSwiper -->
+<script src="src/Scripts/newsSwiper.js"></script>
 </body>
 </html>
